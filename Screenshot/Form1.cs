@@ -37,6 +37,7 @@ namespace Screenshot
 
         public Form1()
         {
+
             InitializeComponent();
             screenshotTimer = new System.Threading.Timer(TakeScreenshot, null, 0, 10000); // Take screenshot every 10 seconds
             checkMouseTimer = new System.Threading.Timer(CheckMouseActivity, null, 0, 60000); // Check mouse activity every 60 seconds
